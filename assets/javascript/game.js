@@ -87,12 +87,11 @@ $(document).ready(function(){
 		reset();
 	}
 
-	function
-
-
-
-
-
-
+	function loser(){
+		alert("Oh darn! You are a loser!");
+		losses++;
+		$('#numberLosses').text(losses);
+		reset();
+	}
 
 })
