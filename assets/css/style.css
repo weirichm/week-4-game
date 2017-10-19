@@ -1,6 +1,6 @@
 
 body {
-	background-color: ;
+	background-color: #3E4464;
 }
 
 .header {
@@ -17,4 +17,63 @@ body {
 	text-align: center;
 }
 
+h3 {
+
+}
+
+.matchNumber {
+	background-color: #283B63;
+	width: 48%;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+
+}
+
+.wins {
+	background-color: #104AC2;
+	width: 48%;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+
+ .losses {
+	background-color: #104AC2;
+	width: 48%;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+
+.crystals {
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.gemImg {
+	margin: 20px;
+	width:auto;
+    height: 100px;
+    float: center;
+}
+
+.score {
+	background-color: #283B63;
+	width: 48%;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+
+}
 

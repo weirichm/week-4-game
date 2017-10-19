@@ -27,26 +27,68 @@
     			<div class="col-lrg-6 text-center">
 					<h3> Let's Get Started! This is what you gotta do!</h3>
 					<ol>
-					 <li></li>
-					 <li></li>
-					 <li></li>
+						 <li>You will be given a random number at the start of the game.</li>
+						</br>
+						 <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+						 </br>
+						 <li>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</li>
+						 </br>
+						 <li>The value of each crystal is hidden from you until you click on it.</li>
+						 </br>
+						 <li>Each time when the game starts, the game will change the values of each crystal.</li>
 					</ol>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="matchNumber">
+	
+	<div class="row">
+    	<div class="col-lrg-6">
+			<div class="matchNumber">
+				<h2>Match This: 
+					<span id= "randomNumber"></span>
+				</h2>
+			</div>
+			<div class="score">
+				<h2>Total Score:
+					<span id="finalScore"></span>
+				</h2>
+			</div>	
+		</div>
 	</div>
 
-	<div class="winsAndLosses">
+	<div class="row">
+    	<div class="col-lrg-6 text-center">
+			<div class="crytals">
+				<img src="assets/images/blue_crystal.png" class=gemImg id="blue" alt="Blue Crystal">
+				<img src="assets/images/purple_crystal.png" class=gemImg id="purple" alt="Purple Crystal">
+				<img src="assets/images/yellow_crystal.png" class=gemImg id="yellow" alt="Yellow Crystal">
+				<img src="assets/images/green_crystal.png" class=gemImg id="green" alt="Green Crystal">
+			</div>
+		</div>
 	</div>
 
-	<div class="crytals">
+
+	<div class="row">
+    	<div class="col-lrg-6">
+				<div class="wins">
+					<h2>Wins:
+						<span id="numberWins"></span>
+					</h2>
+				</div>
+				<div class="losses">
+					<h2>Losses:
+						<span id="numberLosses"></span>
+					</h2>
+				</div>
+		</div>
 	</div>
 
-	<div class="score">
-	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+	
 
 </body>
 </html>
